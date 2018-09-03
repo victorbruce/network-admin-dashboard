@@ -4,15 +4,76 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <title>Admin Dashboard</title>
   </head>
   <body>
-    <nav>
-      <a href="#">DashBoard</a>
-      <div>
-        <a href="">Welcome Ziem</a>
-        <a href="">Logout</a>
+    <!-- TOP NAVIGATION -->
+    <nav class="topnav">
+      <a class="active" href="#home">Admins' Area</a>
+      <div class="topnav-right">
+        <a href="#search">Welcome Ziem</a>
+        <a href="#about">Logout</a>
       </div>
-    </nav>
+    </nav> 
+    <!-- FIXED SIDE NAVIGATION-->
+    <div id="content">
+      <div class="sidenav">
+        <span class="nav-active">Dashboard</span>
+        <a href=""><i class="fa fa-file"></i> Pages</a>
+        <a href=""><i class="fa fa-pencil"></i> Post</a>
+        <a href=""><i class="fa fa-user"></i> Admins</a>
+        <a href=""><i class="fa fa-signal"></i> Visitors</a>
+      </div>
+    
+      <div id="main">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="text-success">Dashboard</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="card box">
+                <div class="card-body">
+                  <h5 class="card-title"><i class="fa fa-file"></i> 11</h5>
+                  <p class="card-text">Pages</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card box">
+                <div class="card-body">
+                  <h5 class="card-title"><i class="fa fa-pencil"></i> 6</h5>
+                  <p class="card-text">Posts</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card box">
+                <div class="card-body">
+                  <h5 class="card-title"><i class="fa fa-user"></i> 3</h5>
+                  <p class="card-text">Admins</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card box">
+                <div class="card-body">
+                  <h5 class="card-title"><i class="fa fa-signal"></i> 118</h5>
+                  <p class="card-text">Visitors</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="bootstrap/js/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
