@@ -102,6 +102,11 @@ footer {
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 500px) {
+  nav div.topnav-right a {
+    float: right;
+    padding: 14px 12px;
+    font-size: 12px ; 
+  }
   .sidenav {
     width: 100%;
     height: auto;
